@@ -1,7 +1,9 @@
 # Analytics snippet
 
+Blade snippet for Google Analytics
+
 ## Version 
 
-## Dependencies
+0.1
 
-## About
+## Dependencies
