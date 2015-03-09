@@ -1,0 +1,12 @@
+{
+	"name": "cozyt/analytics",
+	"description": "Blade snippet for Google Analytics",
+	"homepage": "http://bitbucket.org/cozyt/analytics",
+	"keywords": ["php", "blade", "google", "analytics"],
+	"authors": [
+		{
+			"name": "A Harvey",
+			"homepage": "https://bitbucket.org/cozyt"
+		}
+	],
+}
