@@ -1,12 +1,12 @@
 {
-	"name": "cozyt/analytics",
-	"description": "Blade snippet for Google Analytics",
-	"homepage": "http://bitbucket.org/cozyt/analytics",
-	"keywords": ["php", "blade", "google", "analytics"],
+	"name": "cozyt/ga-snippet",
+	"description": "Snippet for Google Analytics",
+	"homepage": "https://github.com/cozyt/ga-snippet",
+	"keywords": ["php", "google", "analytics"],
 	"authors": [
 		{
 			"name": "A Harvey",
-			"homepage": "https://bitbucket.org/cozyt"
+			"homepage": "https://github.com/cozyt"
 		}
 	]
 }
