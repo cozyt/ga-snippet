@@ -1,14 +1,12 @@
-{{-----------------------------------------------------------------------------
+<?php
+/**
  * Analytics snippet
  * A snippet region to load the google analytics tracking code
  *
  * @param string $id The analytics account ID
- * @url https://bitbucket.org/cozyt/
- * @author  A. Harvey @since 0.1
- * @version  0.1
- * @since  0.1
  * @return string
------------------------------------------------------------------------------}}
+*/
+?>
 
 
 <script>
@@ -17,8 +15,8 @@
     m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
     })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-    @if( !isset($init) || $init === true )
-    ga('create', 'UA-{{ $id }}', 'auto');
+    <?php if ( !isset($init) || $init === true ) { ?>
+    ga('create', 'UA-<?php echo $id; ?>', 'auto');
     ga('send', 'pageview');
-    @endif
+    <?php } ?>
 </script>
