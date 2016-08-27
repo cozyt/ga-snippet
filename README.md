@@ -4,7 +4,7 @@ Snippet to embed Google Analytics tracking in your application.
 
 ## Version
 
-1.0
+1.0.1
 
 ## Installation
 
